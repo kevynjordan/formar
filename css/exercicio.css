@@ -1,0 +1,331 @@
+                                @import url(style.css);
+                                /* EXERCÍCIOS CSS FLEXBOX */
+                                /* ESCREVA SEU CSS ABAIXO UTILIZANDO AS ESTRUTURAS EXIXTENTES */
+                                /* EXERCÍCIO 01 */
+                                
+                                .exercicio1 {
+                                    margin-top: 40px;
+                                }
+                                
+                                .exercicio1 .flex-container {
+                                    width: 400px;
+                                    height: 400px;
+                                    padding: 40px;
+                                    background-color: #ffffff;
+                                    box-shadow: 0px 0px 8px gray;
+                                }
+                                
+                                .exercicio1 .flex-item {
+                                    width: 100%;
+                                    height: 100%;
+                                    background-color: red;
+                                }
+                                /* EXERCÍCIO 02 */
+                                
+                                .exercicio2 {
+                                    margin-top: 40px;
+                                }
+                                
+                                .exercicio2 .flex-container {
+                                    width: 400px;
+                                    height: 400px;
+                                    padding: 40px;
+                                    display: flex;
+                                    gap: 40px;
+                                    flex-direction: column;
+                                    background-color: #ffffff;
+                                    box-shadow: 0px 0px 8px gray;
+                                }
+                                
+                                .exercicio2 .flex-item {
+                                    width: 320px;
+                                    height: 140px;
+                                    background-color: red;
+                                }
+                                
+                                .exercicio2 .flex-item:nth-child(2n) {
+                                    background-color: rgb(0, 0, 0);
+                                }
+                                /* EXERCÍCIO 03 */
+                                
+                                .exercicio3 {
+                                    margin-top: 40px;
+                                }
+                                
+                                .exercicio3 .flex-container {
+                                    width: 400px;
+                                    height: 400px;
+                                    padding: 40px;
+                                    display: flex;
+                                    gap: 40px;
+                                    background-color: #ffffff;
+                                    box-shadow: 0px 0px 8px gray;
+                                }
+                                
+                                .exercicio3 .flex-item {
+                                    width: 400px;
+                                    height: 400x;
+                                    background-color: rgb(255, 0, 0);
+                                }
+                                
+                                .exercicio3 .flex-item:nth-child(2n) {
+                                    background-color: rgb(0, 38, 255);
+                                }
+                                /* EXERCÍCIO 04 */
+                                
+                                .exercicio4 {
+                                    margin-top: 40px;
+                                }
+                                
+                                .exercicio4 .flex-container {
+                                    width: 400px;
+                                    height: 400px;
+                                    box-shadow: 0px 0px 8px #21212180;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                }
+                                
+                                .exercicio4 .flex-item {
+                                    width: 200px;
+                                    height: 200px;
+                                    background-color: rgb(145, 255, 0);
+                                }
+                                
+                                .exercicio4 .flex-item:nth-child(3) {
+                                    background-color: rgb(0, 110, 255);
+                                }
+                                
+                                .exercicio4 .flex-item:nth-child(2) {
+                                    background-color: rgb(0, 153, 255);
+                                }
+                                
+                                .exercicio4 .flex-item:nth-child(4) {
+                                    background-color: rgb(90, 245, 0);
+                                }
+                                /* EXERCÍCIO 05 */
+                                
+                                .exercicio5 {
+                                    margin-top: 40px;
+                                }
+                                
+                                .exercicio5 .flex-container {
+                                    width: 400px;
+                                    height: 400px;
+                                    box-shadow: 0px 0px 8px #21212180;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                }
+                                
+                                .exercicio5 .flex-item {
+                                    width: 200px;
+                                    height: 200px;
+                                    background-color: rgb(145, 255, 0);
+                                }
+                                
+                                .exercicio5 .flex-item:nth-child(1) {
+                                    background-color: rgb(90, 245, 0);
+                                    border-top-left-radius: 100%;
+                                }
+                                
+                                .exercicio5 .flex-item:nth-child(2) {
+                                    background-color: rgb(0, 153, 255);
+                                    border-top-right-radius: 100%;
+                                }
+                                
+                                .exercicio5 .flex-item:nth-child(3) {
+                                    background-color: rgb(0, 110, 255);
+                                    border-bottom-left-radius: 100%;
+                                }
+                                
+                                .exercicio5 .flex-item:nth-child(4) {
+                                    background-color: rgb(90, 245, 0);
+                                    border-bottom-right-radius: 100%;
+                                }
+                                /* EXERCÍCIO 06 */
+                                
+                                .exercicio6 .flex-container {
+                                    width: 400px;
+                                    height: 400px;
+                                    box-shadow: 0px 0px 8px #21212180;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                }
+                                
+                                .exercicio6 .flex-item {
+                                    width: 200px;
+                                    height: 200px;
+                                    background-color: rgb(145, 255, 0);
+                                }
+                                
+                                .exercicio6 .flex-item:nth-child(1) {
+                                    background-color: rgb(90, 245, 0);
+                                    border-radius: 50%;
+                                }
+                                
+                                .exercicio6 .flex-item:nth-child(2) {
+                                    background-color: rgb(0, 153, 255);
+                                    border-radius: 50%;
+                                }
+                                
+                                .exercicio6 .flex-item:nth-child(3) {
+                                    background-color: rgb(0, 110, 255);
+                                    border-radius: 50%;
+                                }
+                                
+                                .exercicio6 .flex-item:nth-child(4) {
+                                    background-color: rgb(90, 245, 0);
+                                    border-radius: 50%;
+                                }
+                                /* EXERCÍCIO 07 */
+                                
+                                .exercicio7 {
+                                    margin-top: 40px;
+                                }
+                                
+                                .exercicio7 .flex-container {
+                                    width: 400px;
+                                    height: 400px;
+                                    padding: 40px;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    gap: 40px;
+                                    box-shadow: 0px 0px 8px gray;
+                                }
+                                
+                                .exercicio7 .flex-item {
+                                    width: 140px;
+                                    height: 140px;
+                                    background-color: rgb(0, 0, 0);
+                                }
+                                
+                                .exercicio7 .flex-item:nth-child(2) {
+                                    background-color: rgb(84, 230, 0);
+                                }
+                                
+                                .exercicio7 .flex-item:nth-child(3) {
+                                    background-color: rgb(0, 0, 0);
+                                }
+                                
+                                .exercicio7 .flex-item:nth-child(4) {
+                                    background-color: rgb(90, 245, 0);
+                                }
+                                /* EXERCÍCIO 08 */
+                                
+                                .exercicio8 {
+                                    margin-top: 40px;
+                                }
+                                
+                                .exercicio8 .flex-container {
+                                    width: 400px;
+                                    height: 400px;
+                                    padding: 40px;
+                                    gap: 40px;
+                                    box-shadow: 0px 0px 8px #21212180;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                }
+                                
+                                .exercicio8 .flex-item {
+                                    width: 140px;
+                                    height: 140px;
+                                    background-color: rgb(0, 0, 0);
+                                    border-radius: 50%;
+                                }
+                                
+                                .exercicio8 .flex-item:nth-child(2) {
+                                    background-color: rgb(90, 245, 0);
+                                }
+                                
+                                .exercicio8 .flex-item:nth-child(3) {
+                                    background-color: rgb(0, 0, 0);
+                                }
+                                
+                                .exercicio8 .flex-item:nth-child(4) {
+                                    background-color: rgb(90, 245, 0);
+                                }
+                                /* EXERCÍCIO 09 */
+                                
+                                .exercicio9 {
+                                    margin-top: 40px;
+                                }
+                                
+                                .exercicio9 .flex-container {
+                                    width: 400px;
+                                    height: 400px;
+                                    padding: 40px;
+                                    gap: 40px;
+                                    box-shadow: 0px 0px 8px #21212180;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                }
+                                
+                                .exercicio9 .flex-item {
+                                    width: 140px;
+                                    height: 140px;
+                                    background-color: rgb(145, 255, 0);
+                                }
+                                
+                                .exercicio9 .flex-item:nth-child(1) {
+                                    background-color: rgb(90, 245, 0);
+                                    border-top-left-radius: 100%;
+                                }
+                                
+                                .exercicio9 .flex-item:nth-child(2) {
+                                    background-color: rgb(0, 153, 255);
+                                    border-top-right-radius: 100%;
+                                }
+                                
+                                .exercicio9 .flex-item:nth-child(3) {
+                                    background-color: rgb(0, 110, 255);
+                                    border-bottom-left-radius: 100%;
+                                }
+                                
+                                .exercicio9 .flex-item:nth-child(4) {
+                                    background-color: rgb(90, 245, 0);
+                                    border-bottom-right-radius: 100%;
+                                }
+                                /* EXERCÍCIO 10 */
+                                
+                                .exercicio10 {
+                                    margin-top: 40px;
+                                }
+                                
+                                .exercicio10 .flex-container {
+                                    width: 400px;
+                                    height: 400px;
+                                    padding: 40px;
+                                    gap: 40px;
+                                    box-shadow: 0px 0px 8px #21212180;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                }
+                                
+                                .exercicio10 .flex-item {
+                                    width: 140px;
+                                    height: 140px;
+                                    background-color: rgb(145, 255, 0);
+                                }
+                                
+                                .exercicio10 .flex-item:nth-child(1) {
+                                    background-color: rgb(90, 245, 0);
+                                    border-top-right-radius: 100%;
+                                    border-bottom-left-radius: 100%;
+                                }
+                                
+                                .exercicio10 .flex-item:nth-child(2) {
+                                    background-color: rgb(0, 153, 255);
+                                    border-bottom-right-radius: 100%;
+                                    border-top-left-radius: 100%;
+                                }
+                                
+                                .exercicio10 .flex-item:nth-child(3) {
+                                    background-color: rgb(0, 110, 255);
+                                    border-bottom-right-radius: 100%;
+                                    border-top-left-radius: 100%;
+                                }
+                                
+                                .exercicio10 .flex-item:nth-child(4) {
+                                    background-color: rgb(90, 245, 0);
+                                    border-bottom-left-radius: 100%;
+                                    border-top-right-radius: 100%;
+                                }
